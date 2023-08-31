@@ -5,8 +5,8 @@ A set of problems from https://cses.fi/ solved in TypeScript (initially was in j
 ### How to compile
 
 ```
-git clone https://github.com/MikeBeloborodov/cses_problems_in_javascript
-cd cses_problems_in_javascript
+git clone https://github.com/MikeBeloborodov/cses_problems_in_typescript.git
+cd cses_problems_in_typescript
 npm i
 npm run tb
 ```
