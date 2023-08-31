@@ -1,0 +1,24 @@
+{
+  "name": "cses_problems",
+  "version": "1.0.0",
+  "description": "A set of problems from https://cses.fi/ solved in TypeScript.",
+  "main": "missing_number.js",
+  "scripts": {
+    "tb": "tsc -b",
+    "tw": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeBeloborodov/cses_problems_in_javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeBeloborodov/cses_problems_in_javascript/issues"
+  },
+  "homepage": "https://github.com/MikeBeloborodov/cses_problems_in_javascript#readme",
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "typescript": "^5.2.2"
+  }
+}

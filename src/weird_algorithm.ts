@@ -20,15 +20,16 @@ Output
 Print a line that contains all values of n
  during the algorithm.
 */
+export {};
 const readline = require("readline");
 const reader = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
 
-reader.question('', number => {
-  number = parseInt(number);
-  answer = "" + number;
+reader.question('', (user_input_1: string) => {
+  let number: number = parseInt(user_input_1);
+  let answer: string = "" + number;
   while (number > 1) {
     number % 2 == 0 ? number = number / 2 : number = (number * 3) + 1;
     answer += " " + number;
